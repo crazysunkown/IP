@@ -1,7 +1,7 @@
 clc;
 clear all;
 
-I=imread('');
+I=imread('lena.png');
 subplot(2,3,1);
 imshow(I);
 title('original image 512*512');
