@@ -1,5 +1,5 @@
 clc;
-a = imread('C:\Users\Acer\Downloads\IPCV-4.1.2-win64-bin\IPCV\images\cameraman.tif');
+a = imread('cameraman.tif');
 a = im2double(a);
 subplot(2,3,1);
 imshow(a);
