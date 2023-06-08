@@ -1,5 +1,5 @@
 clc;
-I=imread('C:\Users\Acer\Downloads\IPCV-4.1.2-win64-bin\IPCV\images\checkerbox.png');
+I=imread('checkerbox.png');
 subplot(1,3,1);
 imshow(I);
 title('Original Imgae');
