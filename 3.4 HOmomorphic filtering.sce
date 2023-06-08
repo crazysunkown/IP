@@ -1,6 +1,6 @@
 clear all;
 clc;
-a = imread('C:\Users\Acer\Downloads\IPCV-4.1.2-win64-bin\IPCV\images\moon.tif');
+a = imread('moon.tif');
 subplot(2,3,1);
 imshow(a);
 title('Input Image');
